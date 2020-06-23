@@ -3,7 +3,7 @@ import React from 'react'
 
 class App extends React.PureComponent {
     render(){
-        return <h1>Hello, from Reacct</h1>
+        return <h1>Hello, from React</h1>
     }
 }
 
