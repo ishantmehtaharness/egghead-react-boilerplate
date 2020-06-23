@@ -1,6 +1,7 @@
 import React from 'react'
 // import ReactDOM from 'react-dom'
 import styles from './styles.css'
+import { hot } from 'react-hot-loader'
 
 class App extends React.PureComponent {
     state = {
@@ -19,4 +20,4 @@ class App extends React.PureComponent {
     }
 }
 
-export default App;
+export default hot(module)(App);
