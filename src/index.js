@@ -1,2 +1,2 @@
-import greeting from './greet'
-console.log(greeting)
+import getGeeting from './greet'
+console.log(getGeeting('ishant'))
